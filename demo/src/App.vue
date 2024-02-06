@@ -42,7 +42,7 @@ for (let i = 0; i < 10; i++) {
 </script>
 
 <template>
-  <div >
+  <div style="padding: 100px 300px">
     边框显示：<a-switch v-model:checked="borderedValue" checked-children="开" un-checked-children="关" />
     <br /><br />
     <a-table :bordered="borderedValue" :dataSource="data.dataSource" :columns="data.columns" />
